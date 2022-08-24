@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: poppins,sans-serif;
+}
+.heading-area{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: url(images/home-bg.png);
+    background-size: 40%;
+    background-position: right;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px 100px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: white;
+}
+header .logo{
+    position: relative;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+   letter-spacing: 1px;
+   padding: 0px;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+header .navigation{
+    position: relative;
+    display: flex;
+}
+header .navigation li{
+    list-style: none;
+}
+header .navigation li a{
+    display: inline-block;
+    color: white;
+    margin: 0px;
+    text-decoration: none;
+    padding-right: 25px;
+}
+header .navigation li a:hover{
+    color: blue;
+}
+.content{
+    padding: 50px;
+    max-width: 750px;
+}
+.heading6{
+    color: red;
+}
+.heading1{
+    color: white;
+    font-size: 50px;
+    font-family:sans-serif;
+}
+.text{
+    color: beige;
+}
+.button{
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+}
+.button .hover{
+    color: blue;
+}
+.text-area{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+.text-area .container{
+    display: flex;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+.half-width{
+    width: 40%;
+    margin: 40px;
+}
+.half-width img{
+    width: 15%;
+    padding-left: 40%;
+    padding-top: 30px;
+}
+.text-line{
+    padding: 0px 20px;
+}
+.text-area .container .more-button{
+    text-align: center;
+
+}
+.single-experience{
+    box-shadow: 5px 5px 5px 5px gray;
+    border-radius: 10px;
+    background-color: white;
+}
+.about-area{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: black;
+}
+.about-area .about{
+    display: flex;
+}
+.about-image{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    margin: 50px;
+}
+.about-text{
+    width:100%;
+    padding-bottom: 50px;
+}
+
+h4{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 5px;
+}
+h5{
+    color: white;
+    font-size: 30px;
+}
+.rules{
+    color: white;
+}
+.chat-area{
+    width: 100%;
+    height: 150px;
+}
+.chat{
+    width: 400px;
+    height: 100px;
+    background-image: url(images/background.jpeg);
+    background-position: left;
+    background-color: #380474;
+    display: flex;
+    border-radius: 10px;
+}
+.chat-box{
+    padding-left: 35%;
+    padding-top: 60px;
+}
+.chat-text{
+    color: white;
+    padding-left: 50px;
+    padding-top: 25px;
+    font-weight: 500;
+}
+.button2{
+    padding-left: 40px;
+}
+.chat-button{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 3px;
+    font-size: 10px;
+    padding: 5px 10px;
+}
+.service-area{
+    width: 100%;
+    height: 800px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 10px;
+}
+.service{
+    display: flex;
+    padding: 10px 20px;
+}
+.box{
+    width: 28%;
+    height: 450px;
+    margin: 30px;
+}
+.box img{
+    width: 100%;
+}
+.fitness{
+    color: red;
+    font-size: 15px;
+     padding-left: 15px;
+}
+.training{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+.wasim{
+    font-size: 10px;
+    padding-left: 15px;
+}
+.dollar{
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.join{
+    color: red;
+    font-weight: 100;
+    text-align: right;
+    margin-left: 140px;
+    text-decoration: none;
+    font-size: 15px;
+}
+footer p .name{
+    color: red;
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
+}
